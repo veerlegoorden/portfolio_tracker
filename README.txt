@@ -1,4 +1,4 @@
-# Investment Portfolio Tracker - CLI Application
+# Investment Portfolio Tracker - CLI 
 
 This is a Python command-line application to manage and analyze a portfolio.
 
@@ -6,7 +6,7 @@ Note: Everything with ‘Extra’ is an addition to the described project.
 
 ---
 
-### 1. Add Assets to the Portfolio
+### 1. Add assets to the portfolio
 
 Users can add assets by specifying:
 - Ticker
@@ -90,12 +90,12 @@ python main.py simulate –years 5 –runs 100
 ---
 
 ### Additions (Extra)
-- PnL 
-- Annualized volatility
-- Annualized return
-- Sharpe ratio
-- Value at Risk (VaR)
-- Benchmark (S&P500) comparison
+- PnL (view)
+- Annualized volatility (risk)
+- Annualized return (risk)
+- Sharpe ratio (risk)
+- Value at Risk (VaR) (risk)
+- Benchmark (S&P500) comparison (benchmark)
 
 
 
