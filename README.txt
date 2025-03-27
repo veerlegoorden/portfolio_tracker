@@ -96,6 +96,8 @@ python main.py simulate –years 5 –runs 100
 - Sharpe ratio (risk)
 - Value at Risk (VaR) (risk)
 - Benchmark (S&P500) comparison (benchmark)
+- Delete assets from portfolio (delete)
+- Clear portfolio (clear)
 
 
 
