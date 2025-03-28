@@ -4,8 +4,6 @@
 Created on Wed Mar 26 
 
 @author: veerlegoorden
-
-ka hij twee keet dezelfde kopen?
 """
 
 import click
@@ -35,14 +33,14 @@ def add(ticker, sector, class_, quantity, price):
 def view():
     show_portfolio(portfolio.assets, portfolio)
     
-
+# delete
 @cli.command()
 @click.argument('ticker')
 def delete(ticker):
     """Delete all entries of a given ticker."""
     portfolio.delete_asset(ticker)
     
-
+# clear portfolio
 @cli.command()
 @click.confirmation_option(prompt='Are you sure you want to delete your entire portfolio?')
 def clear():
