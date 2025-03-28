@@ -32,9 +32,7 @@ class Portfolio:
     
     
     def save(self):
-        # Create the folder if it doesn't exist
         os.makedirs(os.path.dirname(self.file_path), exist_ok=True)
-        # Save assets as JSON
         with open(self.file_path, 'w') as f:
             json.dump(self.assets, f)
 
